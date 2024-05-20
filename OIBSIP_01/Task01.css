@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(180, 227, 158);
+  font-family:'Times New Roman', Times, serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1
+{
+  text-align:center;
+  padding: 25px;
+}
+
+.calculator{
+  width: 20rem;
+  height: 24rem;
+  background-color: rgb(38, 38, 56);
+  margin: 0 auto;
+  position: relative;
+  border-radius:20px;
+  padding:2rem 1rem;
+}
+#result{
+  padding:0 .3rem;
+  width: 96%;
+  height: 6rem;
+  color: azure;
+  background-color:rgba(95, 152, 208, 0.5);
+  font-size: 30px;
+}
+#display{
+  display: flex;
+  align-items: flex-start;
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+#output{
+  font-size: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border-radius: .5rem;
+  padding-right: .4rem;
+}
+
+.total{
+  color: rgb(0, 0, 0);
+  background-color: rgb(89, 118, 181);
+  grid-column: 1/span 2;
+  position: relative;
+  left: 12.3rem;
+  bottom: 4rem;
+  padding: .3rem 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#Buttons{
+  height: 20rem;
+  display: grid;
+  grid-template-columns: repeat(5, 5fr);
+  grid-gap: .5rem;
+  margin-top: 1.5rem;
+}
+
+button{
+  background-color: rgb(144, 184, 233);
+  border: none;
+  border-radius: .4rem;
+}
+
+.operator,.bracket{
+  color: rgb(3, 21, 79);
+  font-weight: 600;
+  font-size:20px;
+}
+
+.number{
+  font-weight: bold;
+  font-size: 25px;
+  background-color: rgb(89, 118, 181);
+}
