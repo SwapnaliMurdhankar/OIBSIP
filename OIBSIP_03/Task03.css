@@ -1,0 +1,84 @@
+body{ 
+  background: radial-gradient(circle, rgba(204, 187, 246, 0.028) 5%, rgb(119, 79, 175) 100%);
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  margin:70px;
+}
+
+#todo-container{
+  background-color: rgba(15, 15, 15, 0.942);
+  width: 400px;
+  margin: 0 auto;
+  border: 2px solid #d3dded;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow:inset 0 0 80px rgb(171, 102, 240);
+}
+
+#input-box{
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #f6f6f7;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  background-color: #b692f0;
+}
+ 
+#input-button{
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+  padding: 10px;
+  border:2px solid white;
+  border-radius: 5px;
+  background-color: #ac85eb;
+}
+
+hr{
+  border: 1px solid #f3f2f4;
+}
+
+#header{
+  margin: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+#input-button:hover {
+  background-color: #dfd80a; 
+} 
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align:left;
+}
+
+li {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.edit-btn, .delete-btn, .complete-btn{
+  float: right;
+  color:rgb(247, 242, 243);
+  cursor: pointer;
+  margin: 3px 5px;
+  border: none;
+  padding: 3px 5px;
+  background: none;  
+} 
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(252, 248, 248);
+  border: 1px solid rgb(234, 235, 239);
+}
